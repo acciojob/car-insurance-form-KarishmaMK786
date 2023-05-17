@@ -22,27 +22,29 @@
 			Female<input type="radio" name="gender" id="gender" value="female" required>
 		</div>
 		<div>
-			<lable for="cars" required>Car Brands:</lable>
-			BMW<input type="checkbox" name="BMW" id="cars" value="bmw">
-			Audi<input type="checkbox" name="Audi" id="cars" value=audi>
-			Mercedez<input type="checkbox" name="Mercedez" id="cars" value="mercedez">
+			<label for="cars">Car Brands:</label>
+            <select id="cars" name="cars">
+              <option value="bmw">BMW</option>
+              <option value="audi">Audi</option>
+              <option value="mercedez">Mercedez</option>
+            </select>
 		</div>
 		
 		<div>
-			<lable for="age">Car Age:</lable>
-			<input type="age" name="age" id="age" value="age" required>
+			<lable for="carage">Car Age:</lable>
+			<input type="age" name="carage" id="carage" value="carage" required>
 		</div>
 
 		<div>
 			<lable for="dop">Date of Purchase:</lable>
-			<input type="date" name="dop" id="dop" required>
+			<input type="dop" name="dop" id="dop" required>
 		</div>
 		<div>
 			<label for="password">Password:</label>
 			<input type="password" name="pasword" id="password" required>
 		</div>
 		<div>
-			<input type="submit" key="Submit" required>
+				<button type="button" onclick="alert('Hello World!')">Click Me!</button>
 		</div>
 	</form>
 	
